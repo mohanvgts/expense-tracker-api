@@ -3,6 +3,7 @@ declare global {
         interface ProcessEnv {
             PORT: number
             MONGO_URI:string
+            JWT_SECRET:string
         }
     }
 }

@@ -17,3 +17,13 @@ export const userRegisterType = t.Object({
   phone: t.String(),
   password: t.String(),
 });
+
+export const userLoginType = t.Object({
+  email:t.String(),
+  password:t.String()
+})
+
+export type UserLoginType = {
+  email:string,
+  password:string
+}
